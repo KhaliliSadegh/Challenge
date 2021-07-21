@@ -54,10 +54,10 @@ async function getFlights() {
  * @return {[uniqueFlights]}      [uniqueFlightes]
  */
 const removeDuplicates = (input) => {
+    if (!input)
+        if (!input.length)
+            return 'Nothing Found';
 
-    if (!input.length) {
-        return 'Nothing Found';
-    }
 
 
     const uniqueFlights = input.reduce((accu, current) => {
