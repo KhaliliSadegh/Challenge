@@ -14,7 +14,9 @@
     "request": "^2.88.2",
     "winston": "^3.3.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "supertest": "^6.1.4"
+  },
   "scripts": {
     "test": "jest"
   },
