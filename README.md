@@ -5,10 +5,11 @@
 - Handling the results and merging them with spread [...]
 - Remove duplicates flights by reduce and find
 - Return the final result to the client.
-
-- Write unit test with jest (npm test)
+<br />
+<br />
+- Write unit test with jest (npm test)<br />
 - implement redis to provide best performance < 1s
-
-
-call '/' get data normally
-call '/cache' store retrieved data in redis cache and provide response time < 1s 
+<br />
+<br />
+* call '/' get data normally <br />
+* call '/cache' store retrieved data in redis cache and provide response time < 1s 
